@@ -1,6 +1,9 @@
-name: NOcraft
+name: NOCraft
 version: '${project.version}'
-main: nocraft.nocraft.NOcraft
+main: com.github.kermx.nocraft.NOCraftPlugin
 api-version: 1.19
-authors: [ KermX ]
-description: Disable a bunch of vanilla menus 
+authors:
+  - KermX
+description: Disable a bunch of vanilla menus
+depend:
+  - eco
